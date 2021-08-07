@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.0.0",
-    "djs-anime": "^2.0.1",
+    "djs-anime": "^2.0.9",
     "djs-games": "^2.1.6-dev",
     "djs-utils": "^1.1.2",
     "glob": "^7.1.7",
