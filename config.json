@@ -1,5 +1,5 @@
 {
-    "token": "ODcxMDA1MzcxMTk0NTU2NDE2.YQVA9g.sBuLw6OWCoXRI4dRHKuiTwahS9I",
+    "token": "your bot token",
     "prefix": ">",
     "mongooseConnectionString": ""
 }
