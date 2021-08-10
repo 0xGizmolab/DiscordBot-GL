@@ -1,7 +1,7 @@
 const { Message, Client } = require("discord.js");
 
 module.exports = {
-    name: "",
+    name: "snake",
       /**
      *
      * @param {Client} client
