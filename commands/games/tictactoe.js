@@ -10,9 +10,19 @@ module.exports = {
    */
 
     run: async (client, message, args) => {
-        const djsGames = require('djs-games')
-        const TicTacToe = new djsGames.TicTacToe()
-        TicTacToe.startGame(message)
+        const opponent = message.mentions.users.first();
+        if (!opponent) return message.channel.send(`Please mention who you want to challenge at tictactoe.`);
+        const { TicTacToe } = require('djs-games')
+        const game = new TicTacToe({
+            message: message,
+            opponent: opponent,
+            xEmote: '❌', // The Emote for X
+            oEmote: '0️⃣', // The Emote for O
+            xColor: 'PRIMARY',
+            oColor: 'PRIMARY', // The Color for O
+            embedDescription: 'Tic Tac Toe', // The Description of the embed
+        })
+        game.start()
 
     }
 }

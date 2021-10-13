@@ -10,9 +10,11 @@ module.exports = {
    */
 
     run: async (client, message, args) => {
-        const djsGames = require('djs-games')
-        const RockPaperScissors = new djsGames.RockPaperScissors()
-        RockPaperScissors.startGame(message)
+        const { RockPaperScissors } = require('djs-games')
+        const game = new RockPaperScissors({
+            message: message,
+        })
+        game.start()
 
     }
 }

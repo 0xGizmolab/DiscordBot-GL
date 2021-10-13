@@ -1,7 +1,8 @@
 const { Message, Client } = require("discord.js");
 
+
 module.exports = {
-    name: "fasttype",
+    name: "Hangman",
     /**
    *
    * @param {Client} client
@@ -21,7 +22,6 @@ module.exports = {
             hangManBoots: '👟👟',
         })
         game.start()
-
 
     }
 }

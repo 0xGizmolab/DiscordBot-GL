@@ -11,8 +11,12 @@ module.exports = {
 
     run: async (client, message, args) => {
 
-        const djsGames = require('djs-games')
-        const guessTheNumber = new djsGames.GuessTheNumber()
-        guessTheNumber.startGame(message)
+        const { GuessTheNumber } = require('djs-games')
+        const game = new GuessTheNumber({
+            message: message,
+            wrongGuess: 'Wrong Guess!',
+            correctGuess: 'Correct Guess!',
+        })
+        game.start()
     }
 }

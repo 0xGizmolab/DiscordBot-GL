@@ -10,9 +10,13 @@ module.exports = {
    */
 
     run: async (client, message, args) => {
-        const djsGames = require('djs-games')
-        const ConnectFour = new djsGames.ConnectFour()
-        ConnectFour.startGame(message)
+        const { ConnectFour } = require('djs-games')
+        const game = new ConnectFour({
+            message: message,
+            player1: '🔴',
+            player2: '🟡',
+        })
+        game.start()
 
 
     }

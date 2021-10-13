@@ -1,5 +1,6 @@
 {
     "token": "your bot token here",
     "prefix": ">",
-    "mongooseConnectionString": ""
+    "mongooseConnectionString": "",
+    "dagpi": ""
 }
