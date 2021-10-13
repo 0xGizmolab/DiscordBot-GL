@@ -2,7 +2,7 @@ const { Message, Client } = require("discord.js");
 
 
 module.exports = {
-    name: "Hangman",
+    name: "hangman",
     /**
    *
    * @param {Client} client
@@ -11,8 +11,9 @@ module.exports = {
    */
 
     run: async (client, message, args) => {
-        const { Hangman } = require('djs-games')
-        const game = new Hangman({
+
+        const { HangMan } = require('djs-games')
+        const game = new HangMan({
             message: message,
             theme: 'coding', // 'sport', 'coding', 'nature', 'popular game', 'phone brand', 'color', 'camping', 'music instrument'
             hangManHat: '🎓',

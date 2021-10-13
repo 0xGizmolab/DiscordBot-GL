@@ -17,10 +17,10 @@ module.exports = {
             snake: '🟩',
             apple: '🍎',
             embedColor: 'RANDOM',
-            leftButton: '◀',
-            rightButton: '▶',
-            upButton: '▲',
-            downButton: '▼',
+            leftButton: '⬅',
+            rightButton: '➡',
+            upButton: '⬆',
+            downButton: '⬇',
         })
         game.start()
 

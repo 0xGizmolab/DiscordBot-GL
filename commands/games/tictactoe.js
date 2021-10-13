@@ -16,8 +16,8 @@ module.exports = {
         const game = new TicTacToe({
             message: message,
             opponent: opponent,
-            xEmote: '❌', // The Emote for X
-            oEmote: '0️⃣', // The Emote for O
+            xEmoji: '❌', // The Emote for X
+            oEmoji: '0️⃣', // The Emote for O
             xColor: 'PRIMARY',
             oColor: 'PRIMARY', // The Color for O
             embedDescription: 'Tic Tac Toe', // The Description of the embed
