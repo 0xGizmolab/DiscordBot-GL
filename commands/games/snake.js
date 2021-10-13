@@ -10,8 +10,8 @@ module.exports = {
    */
 
     run: async (client, message, args) => {
-        const { Snake } = require('djs-games')
-        const game = new Snake({
+        const { SnakeGame } = require('djs-games')
+        const game = new SnakeGame({
             message: message,
             buttons: true, // If you want to use buttons || False if you want to use reactions
             snake: '🟩',
