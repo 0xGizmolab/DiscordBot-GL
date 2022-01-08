@@ -1,0 +1,32 @@
+{
+  "name": "djs",
+  "version": "1.0.0",
+  "description": "`npm install` - install all required dependancies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.0.0",
+    "djs-anime": "^2.0.9",
+    "djs-games": "^2.1.1",
+    "djs-utils": "^1.1.2",
+    "glob": "^7.1.7",
+    "mongoose": "^5.13.5",
+    "node": "^16.6.1",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GizmolabAI/DiscordBot-GL.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GizmolabAI/DiscordBot-GL/issues"
+  },
+  "homepage": "https://github.com/GizmolabAI/DiscordBot-GL#readme"
+}
