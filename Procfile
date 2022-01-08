@@ -1,1 +1,1 @@
-woker: "node ."
+woker: "node index.js"
