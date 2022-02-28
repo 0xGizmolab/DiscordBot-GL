@@ -1,0 +1,19 @@
+{
+  "name": "djs-utils",
+  "version": "1.1.2",
+  "description": "A Utility Command Package for discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord.js",
+    "discord-bot",
+    "discord-utility"
+  ],
+  "author": "Gizmo",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "is-url": "^1.2.4"
+  }
+}

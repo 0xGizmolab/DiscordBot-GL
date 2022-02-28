@@ -1,0 +1,1 @@
+module.exports.Utils = require('./data/qrcode')
