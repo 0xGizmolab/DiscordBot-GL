@@ -10,18 +10,12 @@ module.exports = {
    */
 
     run: async (client, message, args) => {
-        const { Hangman } = require('djs-games')
-        const game = new Hangman({
-            message: message,
-            theme: 'coding', // 'sport', 'coding', 'nature', 'popular game', 'phone brand', 'color', 'camping', 'music instrument'
-            hangManHat: '🎓',
-            hangManHead: '🙉',
-            hangManShirt: '👚 ',
-            hangManPants: '👖 ',
-            hangManBoots: '👟👟',
-        })
-        game.start()
-
+        const { FastTyper } = require('djs-games')
+        const game = new FastTyper({
+          message: message,
+          })
+          
+          game.start()
 
     }
 }
